@@ -1,3 +1,3 @@
 def my_each(collection)
-  yield(collection)
+  if block_given?
 end
